@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url(font/fa-brands-400.ttf)
+}
+
+@font-face {
+    font-family: 'netflix1';
+    src: url(font/NetflixSans_W_Rg.ttf);
+
+}
+
+@font-face {
+    font-family: 'netflix2';
+    src: url(font/NetflixSans_W_Md.woff2);
+
+}
+
+@font-face {
+    font-family: 'netflix3';
+    src: url(font/NetflixSans_W_Rg.ttf);
+
+}
+
+@font-face {
+    font-family: 'netflix4';
+    src: url(font/_Xms-HUzqDCFdgfMm4S9DQ.woff2);
+
+}
+body{
+background-image: url(images/5418500_2776275.jpg);
+}
+
+:root {
+--gold : #ff9900;
+--red : #F84331;
+--black : black;
+--white : white;
+
+}
+
+/* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  } */
+
+/******************************************************************
+* Here our start of loading time animation 
+*******************************************************************/
+/* .section{
+    display:none;
+} */
+/* .loader{
+   
+  width: 100vw;
+  height: 50vh ;
+   position: relative;
+   
+ 
+}
+.loader:first-child{
+    top: -100%;
+    background-color:#FF9900;
+    ;
+    animation: loader 2s  ease-in-out alternate-reverse ;
+}
+.loader:last-child{
+    bottom: -100%;
+    background-color: rgb(0, 0, 0);
+    animation: loader1 2s ease-in-out alternate-reverse ;
+}
+.loader-parent{
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+@keyframes loader {
+0%{
+  
+}
+100%{
+    top: 0;
+    
+}
+
+}
+@keyframes loader1 {
+0%{
+  
+}
+100%{
+    bottom: 0;
+    
+}
+
+}  */
+
+/******************************************************************
+* animation end here  
+*******************************************************************/
+
+
+/******************************************************************
+* Here our first page  
+*******************************************************************/
+.icons {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+}
+
+.icons ul {
+    padding: 0 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons ul li {
+
+    background-color: var(--gold);
+    height: 5vw;
+    width: 5vw;
+    list-style: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icons ul  a {
+    color: var(--white);
+
+}
+.icons ul  a:hover {
+    color: var(--red);
+
+}
+.icons ul li:hover{
+    box-shadow:  0 0 5px #8e5500, 0 0 10px  #8e5500, 0 0 15px  #8e5500 inset;
+}
+.icons ul a li{
+  
+    animation: icons 10s forwards infinite ease-in-out;
+}
+@keyframes icons {
+    0%{
+        box-shadow: 0 0 5px var(--gold);
+    }
+    30%{
+        box-shadow: 0 0 5px var(--gold) ,  0 0 15px var(--gold);
+    }
+    60%{
+        box-shadow: 0 0 5px var(--gold) ,  0 0 15px var(--gold) ,  0 0 25px var(--gold) ;
+    }
+    90%{
+        box-shadow: 0 0 5px var(--white) ,  0 0 15px var(--white);
+    }
+    100%{
+        box-shadow: 0 0 5px var(--white);
+    }
+}
+
+/******************************************************************
+* Here our main part start 
+*******************************************************************/
+
+.home-main{
+    border-radius: 50px 0 50px 0;
+width: 90vw;
+height: 90%;
+background-color: var(--black);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+color: var(--white);
+overflow: hidden;
+animation: icons2 10s forwards infinite ease-in-out;
+}
+
+@keyframes icons2 {
+    0%{
+        box-shadow: 0 0 5px skyblue;
+    }
+    30%{
+        box-shadow: 0 0 5px skyblue ,  0 0 15px skyblue;
+    }
+    60%{
+        box-shadow: 0 0 5px skyblue ,  0 0 15px skyblue ,  0 0 25px skyblue ;
+    }
+    90%{
+        box-shadow: 0 0 5px var(--white) ,  0 0 15px var(--white);
+    }
+    100%{
+        box-shadow: 0 0 5px var(--white);
+    }
+}
+
+
+.home-main .home-main-inner{
+height: 100%;
+width: 100%;
+
+}
+.home-main .home-main-inner .home-main-img img {
+width: 80%;
+height: 100%;
+object-fit:  cover;
+
+
+}
+.home-main .home-main-inner .home-main-img{
+height: 100%;
+}
+.home-main .home-main-inner .home-main-text {
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.home-main .home-main-inner .home-main-text h1{
+font-family: netflix2;
+font-weight: bolder;
+font-size: 3vw
+}
+
+
+.home-main .home-main-inner .home-main-text p{
+font-size: 1.1vw;
+
+
+}
+@keyframes text1 {
+    0%{
+        color: #ff6a00;
+        transition: all ease 0.5s;
+    }
+    20%{
+       color: rgb(204, 255, 0);
+       transition: all ease 0.5s;
+
+    }
+    40%{
+       color: rgb(255, 0, 157);
+       transition: all ease 0.5s;
+
+    }
+    60%{
+       color: rgb(0, 255, 60);
+       transition: all ease 0.5s;
+
+    }
+    80%{
+       color: rgb(255, 98, 0);
+       transition: all ease 0.5s;
+
+    }
+    100%{
+       color: gold;
+       transition: all ease 0.5s;
+
+    }
+    
+
+}
+
+
+
+
+.home-main .home-main-inner .home-main-text a{
+    width: 30vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-weight: bolder;
+    text-decoration: none;
+    height: 50px;
+    background-color: var(--red);
+    animation: icons1 10s forwards infinite ease-in-out;
+}
+.home-main .home-main-inner .home-main-text a:hover{
+
+    box-shadow:  0 0 5px #78271f, 0 0 10px  #78271f, 0 0 15px  #78271f inset;
+    background-color: rgb(255, 0, 0);
+}
+
+@keyframes icons1 {
+    0%{
+        box-shadow: 0 0 5px var(--red);
+    }
+    30%{
+        box-shadow: 0 0 5px var(--red) ,  0 0 15px var(--red);
+    }
+    60%{
+        box-shadow: 0 0 5px var(--red) ,  0 0 15px var(--red) ,  0 0 25px var(--red) ;
+    }
+    90%{
+        box-shadow: 0 0 5px var(--white) ,  0 0 15px var(--white);
+    }
+    100%{
+        box-shadow: 0 0 5px var(--white);
+    }
+}
+
+
+/******************************************************************
+* Here our background icons 
+*******************************************************************/
+
+
+.lollipop {
+    --r: 100px; /* control the size */
+    --c1: #fd99d7;
+    --c2: #4e4cb0;
+  
+    height: calc(2* var(--r));
+    aspect-ratio: 1;
+    clip-path: circle();
+    display: flex;
+    animation: round 5s ease forwards infinite;
+  }
+  .lollipop:before,
+  .lollipop:after {
+    content: "";
+    flex: 1;    
+    --g1:radial-gradient(50% 50%,var(--c1) 99%,#0000) no-repeat;
+    --g2:radial-gradient(50% 50%,var(--c2) 99%,#0000) no-repeat;
+    background: var(--g1) calc(sin(60deg)* var(--r)) calc(var(--r) / -2), var(--g2) calc(var(--r) / 2) calc(sin(-60deg)* var(--r)), var(--g1) 0 calc(-1* var(--r)), var(--g2) calc(var(--r) / -2) calc(sin(-60deg)* var(--r)), var(--g1) calc(sin(-60deg)* var(--r)) calc(var(--r) / -2), var(--g2) calc(-1* var(--r)) 0, var(--g1) calc(sin(-60deg)* var(--r)) calc(var(--r) / 2);
+    background-size: 200%;
+  }
+  .lollipop:after {
+     rotate: 180deg;
+  }
+
+@keyframes round {
+    100%{
+        transform: rotate(360deg);
+        
+    }
+}
+
+
+.img1, .img2{
+    width: 50px;
+    height: 50px;
+   
+    
+}
+.img1{
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 10%;
+    animation: round 5s ease forwards infinite;
+}
+.img2{
+    position: absolute;
+    z-index: 5;
+    left: 3%;
+    bottom: 30%;
+    animation: round 5s ease reverse infinite;
+}
+.img1 img{
+    width: 100%;
+   filter: drop-shadow(0 0 10px rgb(0, 157, 255));
+}
+.img2 img{
+    width: 100%;
+   filter: drop-shadow(0 0 10px orangered);
+}
+
+
+
+  /******************************************************************
+  * here our about us part start
+  *******************************************************************/
+.about-main{
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+
+}
+  .about-titel{
+    font-family: netflix2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100vw;
+    font-weight: bolder;
+  }
+
+
+.about-main .row 
+table,
+th,
+td {
+    border-collapse: collapse;
+    color: white;
+}
+.about-main .about-titel .row 
+th,
+td {
+    padding: 10px 0px;
+}
+.about-main .row .address{
+    color: white;
+}
