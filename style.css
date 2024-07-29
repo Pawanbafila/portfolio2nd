@@ -79,6 +79,40 @@ animation: grow 2s forwards infinite ;
     }
 } */
 
+
+/******************************************************************
+* here our about me css 
+*******************************************************************/
+
+
+
+.about-me .row .about-img{
+position: relative;
+}
+.about-me .row .about-img img{
+border-radius: 50%;
+width: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.about-me .row .about-text p{
+    text-align: justify;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /******************************************************************
 * here our footer css 
 *******************************************************************/
