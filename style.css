@@ -88,6 +88,7 @@ animation: grow 2s forwards infinite ;
 
 .about-me .row .about-img{
 position: relative;
+
 }
 .about-me .row .about-img img{
 border-radius: 50%;

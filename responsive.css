@@ -39,3 +39,11 @@ font-size: 12px !important;
 
 }
 }
+
+@media (max-width: 767px) {
+    .about-me .row .about-img{
+        position: relative;
+        height: 300px;
+        }
+
+}
