@@ -101,8 +101,60 @@ transform: translate(-50%,-50%);
 
 .about-me .row .about-text p{
     text-align: justify;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
+
+.about-me .row .about-text h2{
+color: #ff3a72;
+font-weight: bold;
+
+}
+
+
+/******************************************************************
+* skills my css
+*******************************************************************/
+.my-skill .row .col img{
+    width: 50%;
+    margin: 0 auto;
+}
+.my-skill .row .col p{
+font-size: 0.6rem;
+text-align: justify;
+
+}
+.my-skill h2{
+    text-align: center;
+    margin: 50px 0;
+    color: #ff3a72;
+}
+.my-skill .row .col{
+    border: solid 1px rgba(115, 115, 115, 0.207);
+    background-color: rgba(255, 255, 255, 0.282);
+    backdrop-filter: blur(10px);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+}
+.my-skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.my-skill .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
 
 
 
@@ -124,3 +176,13 @@ transform: translate(-50%,-50%);
     text-align: center;
 
 }
+.footer .container .inner-footer p{
+font-size: 0.8rem;
+}
+
+
+
+
+
+
+
