@@ -1,17 +1,24 @@
-/*THIS IS FOR LOADING JS*/
+function openLightbox(img) {
+    var lightbox = document.getElementById("lightbox");
+    var lightboxImg = document.getElementById("lightbox-img");
+    lightbox.style.display = "block";
+    lightboxImg.src = img.src;
+}
 
-// var loader = document.querySelector(".loader-parent");
-// var section = document.querySelector("section");
+function closeLightbox() {
+    var lightbox = document.getElementById("lightbox");
+    lightbox.style.display = "none";
+}
 
-// function pop1() {
-//   loader.style.display = "none";
-//   section.style.display = "block";
-// }
 
-// function pop() {
-//   loader.style.display = "block";
-//   section.style.display = "none";
-//   setTimeout(pop1, 1000); // Corrected: Pass the function reference without parentheses
-// }
 
-/*HERE OUR GSAP JS START*/
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true,
+    lerp: 0.04,
+   
+});
+
+
+
