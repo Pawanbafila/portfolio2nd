@@ -114,13 +114,22 @@ font-weight: bold;
 /******************************************************************
 * skills my css
 *******************************************************************/
-.my-skill .row .col img{
+.my-skill .row .col .img7{
     width: 50%;
     margin: 0 auto;
+
+}
+.my-skill .row .col .img7 img{
+    width: 100%;
+    object-fit: cover;
+
 }
 .my-skill .row .col p{
-font-size: 0.6rem;
-text-align: justify;
+font-size: 0.9rem;
+text-align:center;
+font-weight: bolder;
+margin: 10px;
+
 
 }
 .my-skill h2{
