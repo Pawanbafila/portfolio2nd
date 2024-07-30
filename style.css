@@ -61,7 +61,9 @@ h1,h2,h3{
      width: 30%;
       height: 100%;
 }
-
+.banner-text-img h1{
+    font-family: netflix3;
+}
 /******************************************************************
 * marquee part
 *******************************************************************/
@@ -241,7 +243,52 @@ font-size: 0.8rem;
 
 
 
+/******************************************************************
+* Here our Project part  
+*******************************************************************/
+  .Sliderable {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+}
 
+.Sliderable .Sliderable-inner {
+    transition: 1s ease all;
+    float: left;
+}
 
+.Sliderable .Sliderable-inner .item {
+    float: left;
+}
 
+.Sliderable .Sliderable-inner .item > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: #222;
+    color: #fff;
+}
+
+.Sliderable .btn-left,
+.Sliderable .btn-right {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+}
+
+.Sliderable .btn-left {
+    left: 0;
+}
+
+.Sliderable .btn-right {
+    right: 0;
+}
+
+.Sliderable .btn-left.over,
+.Sliderable .btn-right.over {
+    pointer-events: none;
+    background: #ccc;
+}
 

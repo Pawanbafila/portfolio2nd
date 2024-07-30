@@ -22,3 +22,11 @@ const scroll = new LocomotiveScroll({
 
 
 
+//her our slider js
+
+ // Configuration object for options
+ var options = {
+    autoPlay: true, // Or false
+    autoPlayInterval: 3000, // Autoplay interval in milliseconds
+    swipeThreshold: 50, // Minimum swipe distance in pixels
+  };
