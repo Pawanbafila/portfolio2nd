@@ -160,9 +160,14 @@ margin: 10px;
     flex-wrap: wrap;
 }
 
+.my-skill .graphic .col img{
+width: 40%;
+}
 
 
-
+.my-skill .other .col img{
+width: 20%;
+}
 
 
 

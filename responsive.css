@@ -53,4 +53,11 @@ font-size: 12px !important;
             margin: 0 auto;
         
         }
+        .my-skill .graphic .col img{
+            width: 50px;
+            }
+        .my-skill .other .col img{
+            width: 50px;
+            }
+            
 }
