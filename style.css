@@ -261,9 +261,7 @@ font-size: 0.8rem;
 
 .Sliderable .Sliderable-inner .item {
     float: left;
-    height: 300px;
-    width: 200px;
-    margin: 0 10px;
+   
 }
 .Sliderable .Sliderable-inner .item img{
     object-fit: cover;
@@ -296,4 +294,17 @@ font-size: 0.8rem;
 .Sliderable .btn-right.over {
     pointer-events: none;
     background: #ccc;
+}
+.Sliderable-inner .item a{
+    background-color: #ff3a72;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.Sliderable-inner .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
