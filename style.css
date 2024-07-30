@@ -1,4 +1,33 @@
 
+@font-face {
+    font-family: 'netflix1';
+    src: url(font/NetflixSans_W_Rg.ttf);
+
+}
+
+@font-face {
+    font-family: 'netflix2';
+    src: url(font/NetflixSans_W_Md.woff2);
+
+}
+
+@font-face {
+    font-family: 'netflix3';
+    src: url(font/NetflixSans_W_Rg.ttf);
+
+}
+
+@font-face {
+    font-family: 'netflix4';
+    src: url(font/_Xms-HUzqDCFdgfMm4S9DQ.woff2);
+
+}
+
+
+
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,6 +38,12 @@ height: 100%;
 width: 100%;
 font-family: "Poppins", sans-serif;
 
+
+}
+
+
+h1,h2,h3{
+    font-family: netflix2;
 }
 
 .nav{
