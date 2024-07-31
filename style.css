@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'netflix1';
     src: url(font/NetflixSans_W_Rg.ttf);
@@ -29,66 +28,75 @@
 
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-html,body {
-height: 100%;
-width: 100%;
-font-family: "Poppins", sans-serif;
-
-
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
 
-h1,h2,h3{
+
+}
+
+
+h1,
+h2,
+h3 {
     font-family: netflix2;
 }
 
-.nav{
+.nav {
     background-color: #918f9400;
     color: white;
 }
-.navbar-collapse ul li:hover{
-    border-bottom: solid 1px #ff3a72;
-   
-}
-.back-sqr{
 
-    background-color:#ff3a72;
-     color: white; 
-     width: 30%;
-      height: 100%;
+.navbar-collapse ul li:hover {
+    border-bottom: solid 1px #ff3a72;
+
 }
-.banner-text-img h1{
+
+.back-sqr {
+
+    background-color: #ff3a72;
+    color: white;
+    width: 30%;
+    height: 100%;
+}
+
+.banner-text-img h1 {
     font-family: netflix3;
 }
+
 /******************************************************************
 * marquee part
 *******************************************************************/
-.skills{
-width: 100%;  
-height: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
+.skills {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 .skills .logo {
     display: inline-block;
     margin: 0 30px;
     width: 70px;
-height: 70px;
-object-fit: cover;
-transition: all ease-in-out 0.7s ;
-animation: grow 2s forwards infinite ;
+    height: 70px;
+    object-fit: cover;
+    transition: all ease-in-out 0.7s;
+    animation: grow 2s forwards infinite;
 }
 
-.skills .logo:hover{
+.skills .logo:hover {
     width: 80px;
     height: 80px;
- 
+
 }
 
 /* @keyframes grow {
@@ -123,37 +131,39 @@ animation: grow 2s forwards infinite ;
 
 
 
-.about-me .row .about-img{
-position: relative;
+.about-me .row .about-img {
+    position: relative;
 
 }
-.about-me .row .about-img img{
-        width: 50%;
-        -webkit-mask-image: url(Untitled-12.png);
-        -webkit-mask-repeat: no-repeat;
-        -webkit-mask-size: 100%;
-        -webkit-mask-position: 0 ;
- 
-        
+
+.about-me .row .about-img img {
+    width: 50%;
+    -webkit-mask-image: url(Untitled-12.png);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    -webkit-mask-position: 0;
+
+
 
 }
-.about-me .row .about-img img{
 
-width: 90%;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+.about-me .row .about-img img {
+
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.about-me .row .about-text p{
+.about-me .row .about-text p {
     text-align: justify;
     font-size: 0.8rem;
 }
 
-.about-me .row .about-text h2{
-color: #ff3a72;
-font-weight: bold;
+.about-me .row .about-text h2 {
+    color: #ff3a72;
+    font-weight: bold;
 
 }
 
@@ -161,30 +171,34 @@ font-weight: bold;
 /******************************************************************
 * skills my css
 *******************************************************************/
-.my-skill .row .col .img7{
+.my-skill .row .col .img7 {
     width: 50%;
     margin: 0 auto;
 
 }
-.my-skill .row .col .img7 img{
+
+.my-skill .row .col .img7 img {
     width: 100%;
     object-fit: cover;
 
 }
-.my-skill .row .col p{
-font-size: 0.9rem;
-text-align:center;
-font-weight: bolder;
-margin: 10px;
+
+.my-skill .row .col p {
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px;
 
 
 }
-.my-skill h2{
+
+.my-skill h2 {
     text-align: center;
     margin: 50px 0;
     color: #ff3a72;
 }
-.my-skill .row .col{
+
+.my-skill .row .col {
     border: solid 1px rgba(115, 115, 115, 0.207);
     background-color: rgba(255, 255, 255, 0.282);
     backdrop-filter: blur(10px);
@@ -194,26 +208,28 @@ margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column  ;
+    flex-direction: column;
 }
-.my-skill{
+
+.my-skill {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.my-skill .row{
+
+.my-skill .row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.my-skill .graphic .col img{
-width: 40%;
+.my-skill .graphic .col img {
+    width: 40%;
 }
 
 
-.my-skill .other .col img{
-width: 20%;
+.my-skill .other .col img {
+    width: 20%;
 }
 
 
@@ -230,15 +246,16 @@ width: 20%;
 /******************************************************************
 * here our footer css 
 *******************************************************************/
-.footer .container .inner-footer{
+.footer .container .inner-footer {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 
 }
-.footer .container .inner-footer p{
-font-size: 0.8rem;
+
+.footer .container .inner-footer p {
+    font-size: 0.8rem;
 }
 
 
@@ -246,7 +263,7 @@ font-size: 0.8rem;
 /******************************************************************
 * Here our Project part  
 *******************************************************************/
-  .Sliderable {
+.Sliderable {
     float: left;
     overflow: hidden;
     padding: 15px;
@@ -261,13 +278,15 @@ font-size: 0.8rem;
 
 .Sliderable .Sliderable-inner .item {
     float: left;
-   
+
 }
-.Sliderable .Sliderable-inner .item img{
+
+.Sliderable .Sliderable-inner .item img {
     object-fit: cover;
     object-position: center;
 }
-.Sliderable .Sliderable-inner .item > div {
+
+.Sliderable .Sliderable-inner .item>div {
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -295,14 +314,16 @@ font-size: 0.8rem;
     pointer-events: none;
     background: #ccc;
 }
-.Sliderable-inner .item a{
+
+.Sliderable-inner .item a {
     background-color: #ff3a72;
     color: white;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
 }
-.Sliderable-inner .item{
+
+.Sliderable-inner .item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,12 +341,15 @@ font-size: 0.8rem;
     height: fit-content;
 
 }
-.figma .container .row .frist img{
+
+.figma .container .row .frist img {
     width: 100px;
 }
-.figma .container .row .frist h3{
+
+.figma .container .row .frist h3 {
     font-size: 13px;
 }
+
 .figma .container .row {
     display: flex;
     flex-wrap: wrap;
@@ -333,19 +357,79 @@ font-size: 0.8rem;
     align-items: center;
 
 }
-.figma .container .row .frist{
+
+.figma .container .row .frist {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: space-evenly;
     justify-content: center;
-   height: fit-content;
-   margin: 10px;
+    height: fit-content;
+    margin: 10px;
+    width: 300px;
+   min-height: 300px;
+   max-height: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border: solid 1px rgba(128, 121, 121, 0.333);
 }
-.figma .container .row .frist a{
+
+.figma .container .row .frist a {
     background-color: #ff3a72;
     color: white;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease-in-out 1s;
+    animation: figma1 1s ease-in-out;
+
+}
+
+.figma .container .row .frist:hover>a {
+    display: block;
+}
+.figma .container .row .frist:hover>.figma-hide{
+    display: block;
+}
+.frist .figma-hide{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease-in-out 1s;
+    display: none;
+
+}
+@keyframes figma1 {
+    0% {
+        opacity: 0;
+        scale: 0;
+        transition: all ease-in;
+
+    }
+
+    50% {
+        opacity: 1;
+        scale: 1.5;
+        object-position: center;
+        transition: all ease-out;
+    }
+
+100% {
+    opacity: 1;
+    scale: 1;
+    transition: all ease-out;
+
+}
+
 }
