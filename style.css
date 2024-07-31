@@ -308,3 +308,25 @@ font-size: 0.8rem;
     justify-content: center;
     flex-direction: column;
 }
+
+
+
+
+/******************************************************************
+* figma 
+*******************************************************************/
+
+.figma .img{
+    width: fit-content;
+    height: fit-content;
+}
+.figma .img img{
+    height: 20vw;
+
+}
+.figma{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    align-items: center;
+}
