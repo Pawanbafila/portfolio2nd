@@ -318,10 +318,10 @@ font-size: 0.8rem;
 .figma {
     width: 100%;
     height: fit-content;
-    background-color: red;
+
 }
 .figma .container .row .frist img{
-    width: 100%;
+    width: 100px;
 }
 .figma .container .row .frist h3{
     font-size: 16px;
